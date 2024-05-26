@@ -1,7 +1,10 @@
 package com.allevite.server
 
-import cats.*
-import cats.implicits.*
+import cats.Show
+
+/**
+ * An http request.
+ */
 
 case class Request(
                     method: String,
